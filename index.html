@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js font-customFont" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portafoli</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+  <script defer="defer" src="./js/app.js"></script>
+</head>
+
+<body>
+  <header class="bg-blue-300 fixed w-full">
+    <h1 class="text-center p-5 text-4xl uppercase font-bold text-blue-700">Sergi Urbano <span class="text-2xl">PortaFoli</span></h1>
+  </header>
+  <div class="fixed mt-20 w-full border-b-2 border-blue-700 bg-blue-50">
+    <nav class="block md:flex md:justify-between px-8">
+      <a class="block text-center text-blue-700 uppercase font-bold p-2 hover:bg-blue-300 transition-colors" href="#">Inici</a>
+      <a class="block text-center text-blue-700 uppercase font-bold p-2 hover:bg-blue-300 transition-colors" href="#sobremi">Sobre Mi</a>
+      <a class="block text-center text-blue-700 uppercase font-bold p-2 hover:bg-blue-300 transition-colors" href="#projectes">Projectes</a>
+      <a class="block text-center text-blue-700 uppercase font-bold p-2 hover:bg-blue-300 transition-colors" href="#contacte">Contacte</a>
+    </nav>
+  </div>
+  <section class="bg-blue-300 p-4 pt-16" id="sobremi">
+    <div class="m-4 bg-blue-50 flex flex-col p-8 items-center justify-center rounded-xl flex-wrap mt-20 md:flex-row">
+      <h2 class="text-4xl uppercase font-bold text-blue-700 w-full text-center md:block">Sobre Mi</h2>
+      <img class="max-w-60 rounded-full md:w-2/5" src="img/sobremiImg.jpg" alt="Imatge Sobre mi">
+      <p class="p-8 leading-relaxed md:w-3/5 md:p-12 md:leading-loose">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem fuga quas nisi minus quaerat consequatur vel
+        aliquam laboriosam dolor est repellat magnam, tenetur unde aut maiores dicta soluta labore ad. Lorem ipsum dolor
+        sit amet consectetur, adipisicing elit. Dolorem fuga quas nisi minus quaerat consequatur vel aliquam laboriosam
+        dolor est repellat magnam, tenetur unde aut maiores dicta soluta labore ad.</p>
+    </div>
+  </section>
+  <main id="projectes">
+    <section class="grid m-8 gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div class="bg-blue-50 p-8 rounded-lg items-center">
+        <img class="max-w-40 block my-0 mx-auto" src="img/HTML5_logo.png" alt="Imatge Projecte1">
+        <h3 class="font-bold text-center p-4">HTML5</h3>
+        <p class="leading-snug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure magnam voluptatibus eaque odit qui?
+          Eaque, sed voluptatem unde, tempora aut, libero perferendis laborum cumque odit veniam earum rem adipisci.</p>
+      </div>
+      <div class="bg-blue-50 p-8 rounded-lg items-center">
+        <img class="max-w-40 block my-0 mx-auto" src="img/CSS3_logo.svg" alt="Imatge Projecte2">
+        <h3 class="font-bold text-center p-4">CSS3</h3>
+        <p class="leading-snug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure magnam voluptatibus eaque odit qui?
+          Eaque, sed voluptatem unde, tempora aut, libero perferendis laborum cumque odit veniam earum rem adipisci.</p>
+      </div>
+      <div class="bg-blue-50 p-8 rounded-lg items-center">
+        <img class="max-w-40 block my-0 mx-auto" src="img/php-8-2_logo.png" alt="Imatge Projecte3">
+        <h3 class="font-bold text-center p-4">PHP8</h3>
+        <p class="leading-snug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure magnam voluptatibus eaque odit qui?
+          Eaque, sed voluptatem unde, tempora aut, libero perferendis laborum cumque odit veniam earum rem adipisci.</p>
+      </div>
+      <div class="bg-blue-50 p-8 rounded-lg items-center">
+        <img class="max-w-40 block my-0 mx-auto" src="img/js-logo.webp" alt="Imatge Projecte3">
+        <h3 class="font-bold text-center p-4">JS</h3>
+        <p class="leading-snug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure magnam voluptatibus eaque odit qui?
+          Eaque, sed voluptatem unde, tempora aut, libero perferendis laborum cumque odit veniam earum rem adipisci.</p>
+      </div>
+    </section>
+    <section class="" id="contacte">
+      <form class="bg-blue-50 w-full p-8 rounded-lg mb-8 sm:w-fit sm:mx-auto">
+        <h2 class="text-center text-3xl font-bold p-4">Contacte</h2>
+        <fieldset>
+          <legend class="border-none text-center text-lg text-blue-700 font-bold uppercase mb-8">Contacta'm omplint tots els camps</legend>
+          <div class="">
+            <div class="mb-4">
+              <label class="font-bold block mb-2">Nom</label>
+              <input class="w-full border-none p-3 rounded-md shadow-md" placeholder="Nom" />
+            </div>
+            <div class="mb-4">
+              <label class="font-bold block mb-2">Telèfon</label>
+              <input class="w-full border-none p-3 rounded-md shadow-md" type="tel" placeholder="Telèfon" />
+            </div>
+            <div class="mb-4">
+              <label class="font-bold block mb-2">Correu</label>
+              <input class="w-full border-none p-3 rounded-md shadow-md" type="email" placeholder="Correu" />
+            </div>
+            <div class="mb-4">
+              <label class="font-bold block mb-2">Missatge</label>
+              <textarea class="w-full border-none p-3 rounded-md shadow-md h-44"></textarea>
+            </div>
+          </div>
+          <div class="flex justify-end">
+            <input class="bg-blue-300 uppercase text-lg font-bold py-2 px-8 rounded-lg transition-colors hover:bg-blue-400" type="submit" value="Enviar" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer class="text-center bg-blue-300 p-8 uppercase font-bold text-blue-700">
+    <p>Tots els drets reservats &copy; Sergi Urbano 2024</p>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
